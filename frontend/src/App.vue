@@ -1,12 +1,17 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/register">Register</router-link> |
-    <router-link to="/login">Login</router-link>
-  </nav>
-  <router-view/>
+  <MainNavbar/>
+  <router-view />
 </template>
+
+<script>
+import MainNavbar from './components/MainNavbar.vue';
+
+export default {
+  components: {
+    MainNavbar,
+  }
+}
+</script>
 
 <style>
 #app {
@@ -14,19 +19,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+  color: #b9e6f9;
+  background-color: #0077b5;
 }
 </style>

@@ -5,19 +5,22 @@
 - Composer and PHP should be installed on your system.
 - Laravel CLI should be installed globally.
 
-  Clone the repository:
-  git clone https://github.com/yourusername/yourproject.git
+
+### Clone the repository
+```sh
+  git clone https://github.com/elkxuan/vue-laravel-userAuth.git
+```
 
 ### Frontend (Vue.js)
 ```sh
-   cd yourproject/frontend
+   cd vue-laravel-userAuth/frontend
    npm install
    npm run serve
 ```
 
 ### Backend (Laravel)
 ```sh
-cd yourproject/backend
+cd vue-laravel-userAuth/backend
 composer install
 cp .env.example .env
 php artisan key:generate

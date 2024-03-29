@@ -9,7 +9,8 @@
                     <router-link class="nav-link btn-register" to="/register">REGISTER NOW</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/login">Login</router-link>
+                    <!-- <router-link class="nav-link" to="/login">Login</router-link> -->
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
                 </li>
             </ul>
         </div>

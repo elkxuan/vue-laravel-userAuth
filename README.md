@@ -9,14 +9,18 @@
   git clone https://github.com/yourusername/yourproject.git
 
 ### Frontend (Vue.js)
-cd yourproject/frontend
-npm install
-npm run serve
+```sh
+   cd yourproject/frontend
+   npm install
+   npm run serve
+```
 
 ### Backend (Laravel)
+```sh
 cd yourproject/backend
 composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan serve
+```

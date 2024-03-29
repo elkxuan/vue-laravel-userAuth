@@ -1,16 +1,3 @@
-# Project Title
-
-Brief description of your project.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
 
 ### Prerequisites
@@ -18,7 +5,18 @@ Brief description of your project.
 - Composer and PHP should be installed on your system.
 - Laravel CLI should be installed globally.
 
+  Clone the repository:
+  git clone https://github.com/yourusername/yourproject.git
+
+### Frontend (Vue.js)
+cd yourproject/frontend
+npm install
+npm run serve
+
 ### Backend (Laravel)
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/yourproject.git
+cd yourproject/backend
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve

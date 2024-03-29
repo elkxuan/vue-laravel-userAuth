@@ -32,5 +32,6 @@ php artisan serve
 - Vue 3
 - Laravel PHP
 - Mysql
+- RESTFUL
 - Pinia
 - Bootstrap

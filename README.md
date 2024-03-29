@@ -27,3 +27,10 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
+
+### Language/Framework Used
+- Vue 3
+- Laravel PHP
+- Mysql
+- Pinia
+- Bootstrap
